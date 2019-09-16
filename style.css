@@ -1,0 +1,16 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+#husk {
+    display:flex;
+    flex-wrap:wrap;
+    border: 2px solid black;
+}
+.gridbox{
+    width:6.25%;
+    padding-bottom:6.25%;
+    border: 1px solid black;
+}
