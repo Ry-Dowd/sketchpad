@@ -10,10 +10,13 @@
     border: 2px solid black;
 }
 .gridbox{
-    width:2.5%;
-    padding-bottom:2.5%;
+    width:6.25%;
+    padding-bottom:6.25%;
     border: 1px solid black;
 }
 .gridbox:hover{
     background:green;
+}
+.black{
+    background:black;
 }

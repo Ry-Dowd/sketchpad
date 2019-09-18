@@ -12,15 +12,18 @@ function build(n) {
 }
 
 let i = 0
-while (i<(1600)){
+while (i<256){
     let box = document.createElement("div")
     box.setAttribute("class", "gridbox")
     main.appendChild(box)
     i++
 }
 let boxes = document.getElementsByClassName("gridbox")
-let boxarray = []
-boxarray = [...boxes]
+for (let i of boxes){
+    i.addEventListener("mousedown",function(){
+        i.classList.toggle("black")
+    })
+}
 
 // console.log(boxarray)
 
